@@ -45,7 +45,7 @@ router.patch("/:id/toggle",async (req,res)=>{
 
 router.delete("/:id", async (req,res)=>{
     await Todo.findOneAndDelete({_id:req.params.id, user:req.userId});
-    req.json({success:true});
+    res.json({success:true});
 });
 
 module.exports = router
