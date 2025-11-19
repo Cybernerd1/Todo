@@ -2,7 +2,7 @@ import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 // Use your PC's IP address here
-export const API_URL = "http:// 30.31.1.147:5000/api";
+export const API_URL = "https://todo-dhtc.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_URL,
