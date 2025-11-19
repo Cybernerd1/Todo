@@ -1,36 +1,235 @@
-node_modules/
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# Environment Variables
 .env
-*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+server/.env.local
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+lerna-debug.log
+.pnpm-debug.log*
+
+# Package Manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.yarn/
+.pnpm-store/
+
+# React Native
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Bundle artifacts
+*.jsbundle
+*.bundle
 
 # Metro
-.metro-cache/
-.bundle/
+.metro-health-check*
+
+# CocoaPods (iOS)
+ios/Pods/
+ios/build/
+ios/*.xcworkspace
+!ios/Todo.xcworkspace
+ios/*.ipa
+ios/*.dSYM.zip
+ios/*.dSYM
+ios/Podfile.lock
+
+# Xcode (iOS)
+ios/*.pbxuser
+ios/*.mode1v3
+ios/*.mode2v3
+ios/*.perspectivev3
+ios/*.xcuserstate
+ios/xcshareddata/
+ios/DerivedData/
+ios/*.hmap
+ios/*.ipa
+ios/*.xcworkspace/xcuserdata
+ios/.xcode.env.local
 
 # Android
 android/.gradle/
 android/app/build/
 android/build/
+android/captures/
 android/.cxx/
+android/app/.cxx/
 android/local.properties
 android/*.iml
+android/.idea/
+android/*.apk
+android/*.ap_
+android/*.aab
+
+# Generated files
+android/app/release/
+android/app/debug/
+android/.externalNativeBuild/
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Android Studio
+*.log
+.navigation/
+captures/
+output.json
+
+# Watchman
+.watchmanconfig
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.~lock.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variable files
+.env.development
+.env.production
+.env.test
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Buck (Android)
+buck-out/
+.buckd/
 *.keystore
-!android/app/debug.keystore
+!debug.keystore
 
-# iOS
-ios/Pods/
-ios/build/
-ios/*.xcworkspace
-ios/*.xcuserdatad
+# Ruby (for iOS)
+vendor/bundle/
+.bundle/
 
-# Backend
-server/node_modules/
-server/.env
+# MongoDB
+data/
+*.lock
+
+# Server build artifacts
 server/dist/
 server/build/
-server/logs/
-*.log
+server/node_modules/
 
-# System
-.DS_Store
-.vscode/
-.idea/
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificates & Keys
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+
+# Backup files
+*.bak
+*.backup
+
