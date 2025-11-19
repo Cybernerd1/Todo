@@ -1,0 +1,9 @@
+E:/projects/AppProjects/Todo/android/app/.cxx/Debug/3i10r352/arm64-v8a/CMakeFiles/appmodules.dir
+E:/projects/AppProjects/Todo/android/app/.cxx/Debug/3i10r352/arm64-v8a/CMakeFiles/edit_cache.dir
+E:/projects/AppProjects/Todo/android/app/.cxx/Debug/3i10r352/arm64-v8a/CMakeFiles/rebuild_cache.dir
+E:/projects/AppProjects/Todo/android/app/.cxx/Debug/3i10r352/arm64-v8a/rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir
+E:/projects/AppProjects/Todo/android/app/.cxx/Debug/3i10r352/arm64-v8a/rnasyncstorage_autolinked_build/CMakeFiles/edit_cache.dir
+E:/projects/AppProjects/Todo/android/app/.cxx/Debug/3i10r352/arm64-v8a/rnasyncstorage_autolinked_build/CMakeFiles/rebuild_cache.dir
+E:/projects/AppProjects/Todo/android/app/.cxx/Debug/3i10r352/arm64-v8a/safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir
+E:/projects/AppProjects/Todo/android/app/.cxx/Debug/3i10r352/arm64-v8a/safeareacontext_autolinked_build/CMakeFiles/edit_cache.dir
+E:/projects/AppProjects/Todo/android/app/.cxx/Debug/3i10r352/arm64-v8a/safeareacontext_autolinked_build/CMakeFiles/rebuild_cache.dir
